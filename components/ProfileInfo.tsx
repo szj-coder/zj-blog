@@ -48,7 +48,7 @@ export function ProfileCardInfo() {
           </svg>
 
           <p className="px-2">
-            Peiping, China
+            ShangHai, China
             <span className="absolute inline-flex pt-px ml-1">
               <Twemoji emoji="flag-china" />
             </span>
