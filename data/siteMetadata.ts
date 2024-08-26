@@ -20,7 +20,7 @@ export let siteMetadata = {
   linkedin: '',
   instagram: '',
   locale: 'en-US',
-  analyticsURL: 'https://analytics.eu.umami.is/share/EqvpZYPABxaQA3mr/mengke.me',
+  analyticsURL: '',
   analytics: {
     plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
     simpleAnalytics: false, // true or false
@@ -29,7 +29,7 @@ export let siteMetadata = {
     microsoftClarity: 'jteok7o6yj',
   },
   socialAccounts: {
-    github: 'zj',
+    github: 'zj-coder',
     juejin: '',
     linkedin: '',
     instagram: '',

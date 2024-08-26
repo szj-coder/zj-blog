@@ -19,7 +19,10 @@ export default function Projects() {
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">{description}</p>
         </div>
-        <div className="container py-12">
+        <div className="divide-y">
+          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">待完善～</p>
+        </div>
+        {/* <div className="container py-12">
           <h3 className="mb-4 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100">
             Work
           </h3>
@@ -38,7 +41,7 @@ export default function Projects() {
               <ProjectCard key={project.title} project={project} />
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   )
