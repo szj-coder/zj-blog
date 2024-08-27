@@ -25,7 +25,7 @@ export function ProfileCardInfo() {
             />
           </svg>
 
-          <p className="px-2">Front-End Engineer</p>
+          <p className="px-2">Back-End Engineer</p>
         </div>
         <div className="flex items-center text-gray-700 dark:text-gray-200">
           <svg

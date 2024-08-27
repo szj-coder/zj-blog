@@ -10,4 +10,4 @@
 
 ## 如何部署一个同样的博客？
 
-参考源博客: 演示站：<https://mengke.me>
+参考源博客: <https://mengke.me>
