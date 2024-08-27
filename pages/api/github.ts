@@ -11,8 +11,10 @@ export default async function fetchGithubRepo(req: NextApiRequest, res: NextApiR
     return res.status(500).json({ message: 'Missing `GITHUB_API_TOKEN` env variable' })
   }
   let owner = siteMetadata.socialAccounts.github
-  if (repo.includes('/')) {
-    ;[owner, repo] = repo.split('/')
+  const [parsedOwner, parsedRepo] = repo.split('/')
+  if (parsedRepo) {
+    owner = parsedOwner
+    repo = parsedRepo
   }
   try {
     const { repository }: GraphQlQueryResponseData = await graphql(

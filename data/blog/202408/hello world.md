@@ -1,7 +1,7 @@
 ---
-title: "Hello World!!"
+title: "Hello World～"
 date: '2024-08-15'
-tags: ['Blog', 'hello world']
+tags: ['Blog']
 draft: false
 summary: '终于有时间来搭建自己的博客了～'
 authors: ['default']

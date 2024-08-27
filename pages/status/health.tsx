@@ -3,6 +3,7 @@ import { Image } from '~/components/Image'
 import { useEffect, useState } from 'react'
 import { Link } from '~/components/Link'
 import { Twemoji } from '~/components/Twemoji'
+import { siteMetadata } from '~/data/siteMetadata'
 
 export default function FourZeroFour() {
   const [hash, setHash] = useState('')
@@ -26,13 +27,14 @@ export default function FourZeroFour() {
     }
   }, [])
 
+  const imageUrl = `https://ghchart.rshah.org/${siteMetadata.github_acount}`
   const list = [
     {
       id: 'water',
       title: 'Drinking water',
       icon: <Twemoji emoji="cup-with-straw" />,
       sectionTitle: 'Drinking water calendar',
-      img: 'https://raw.githubusercontent.com/mk965/istatus/main/svg/water.svg',
+      img: imageUrl,
     },
   ]
 

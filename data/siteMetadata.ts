@@ -13,6 +13,7 @@ export let siteMetadata = {
   socialBanner: '/static/images/profile.jpg',
   email: 'shenzhengjiea@gmail.com',
   github: 'https://github.com/szj-coder',
+  github_acount: 'szj-coder',
   twitter: '',
   facebook: '',
   youtube: '',
