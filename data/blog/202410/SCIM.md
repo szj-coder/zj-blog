@@ -4,7 +4,7 @@ date: '2024-10-31'
 tags: ['Blog', 'SCIM']
 draft: false
 summary: 'SICM'
-authors: ['zj']
+authors: ['default']
 ---
 
 [rfc7642 定义、概述、概念和要求](https://datatracker.ietf.org/doc/html/rfc7642#autoid-1)
